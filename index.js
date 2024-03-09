@@ -7,6 +7,7 @@ import cookieParser from 'cookie-parser';
 const salt = 10;
 
 const app =  express();
+const port = 5000
 app.use(express.json());
 app.use(cors({
     origin:['http://localhost:3000'],
@@ -159,4 +160,4 @@ app.get('/logout',(req,res)=>{
     return res.json({Status : "Success"})
 })
 
-app.listen(8081,()=>console.log("server running"))
+app.listen(process.env.PORT || port,()=>console.log("server running"))
