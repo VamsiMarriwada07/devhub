@@ -10,7 +10,7 @@ const app =  express();
 const port = 5000
 app.use(express.json());
 app.use(cors({
-    origin:['https://vamsimarriwada.000webhostapp.com'],
+    origin:['*'],
     methods:["POST","GET"],
     credentials:true
 }));
