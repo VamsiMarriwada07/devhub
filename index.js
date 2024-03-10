@@ -19,7 +19,7 @@ app.use(cookieParser());
  
 const db = mysql.createConnection({
     host:'https://databases.000webhost.com', 
-    user:'root',
+    user:'id21967635_devhub',
     password:'Amma#0515',
     database:'id21967635_devhub'
 })
