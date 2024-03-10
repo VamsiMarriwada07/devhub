@@ -18,10 +18,10 @@ app.use(cors({
 app.use(cookieParser());
  
 const db = mysql.createConnection({
-    host:'localhost', 
+    host:'https://databases.000webhost.com', 
     user:'root',
-    password:'',
-    database:'devcraft'
+    password:'Amma#0515',
+    database:'id21967635_devhub'
 })
 
 
